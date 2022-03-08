@@ -1,2 +1,2 @@
 # AI-based-Car-Recommender-System
-Aplikasi berbasis website yang dapat merekomendasikan kebutuhan masyarakat terkait dengan harga dan spesifikasi mobil.
+This is a web based application that can give recommendation regarding car price and its specifications.
