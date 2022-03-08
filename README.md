@@ -4,6 +4,5 @@ This is a web based application that can give recommendation regarding car price
 Fantastic Four :)) Team <br/>
 Group Leader: <br/>
 Member 1: <br/>
-Member 2: <br/>
+Member 2: HANING JIHAN PERTIWI - 19/439813/TK/48543<br/>
 Member 3: <br/>
-Member 4: <br/>
