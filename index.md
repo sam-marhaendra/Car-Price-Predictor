@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+Fantastic Four Team
 
-You can use the [editor on GitHub](https://github.com/sam-marhaendra/AI-based-Car-Recommender-System/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Group Leader: SAMATHA MARHAENDRA PUTRA - 19/444071/TK/49267
+Member 1: RIZKY ALIF RAMADHAN - 19/446785/TK/49890
+Member 2: HANING JIHAN PERTIWI - 19/439813/TK/48543
+Member 3: DASCHA ABHISTA WACHNATA - 19/444044/TK/49240
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+“Project Senior Project TI”
+Instansi: Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada
 
-### Markdown
+Jawaban dari Modul 1
+Nama produk: AI-based Car Recommender System
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Jenis produk: Aplikasi Web
 
-```markdown
-Syntax highlighted code block
+Latar belakang & permasalahan: Di era saat ini, di mana teknologi berkembang dengan sangat pesat, banyaknya temuan baru salah satunya pada industri otomotif. Hal itu membuat rentang harga dan spesifikasi mobil yang ada saat ini menjadi sangat beragam sehingga mengakibatkan kebingungan pada diri masyarakat saat ingin membeli sebuah mobil. Oleh karena itu, kami merancang sebuah aplikasi website yang dapat merekomendasikan kebutuhan masyarakat terkait dengan harga dan spesifikasi mobil.
 
-# Header 1
-## Header 2
-### Header 3
+Ide solusi: Berdasarkan rumusan permasalahan yang telah dipaparkan sebelumnya, kami mengusulkan sebuah solusi berbentuk aplikasi website di mana masyarakat dapat melihat apa saja jenis mobil yang direkomendasikan di dalam website tersebut sehingga masyarakat tidak terjebak dengan tawaran harga mobil dari penjual yang tidak melihat rentang harga yang sebenarnya.
 
-- Bulleted
-- List
+Analisis kompetitor: 
+Kompetitor 1
+Nama: OLX
+Jenis Kompetitor: Indirect Competitors
+Jenis Produk: Marketplace
+Target Customer: Masyarakat Umum
+Kelebihan: Terdapat filter merk, harga, warna, kondisi, dan lokasi penjual; Datanya realtime dan banyak
+Kekurangan: Informasi penjual kadang tidak valid; Aplikasi masih kurang stabil; Resiko permainan harga oleh penjual
+Key Competitive Advantage & Unique Value: Produk yang dibuat menggunakan AI untuk menentukan harga mobil dan mencari mobil dengan kemiripan harga atau komponen lainnya
 
-1. Numbered
-2. List
+Kompetitor 2
+Nama: Mobil123
+Jenis Kompetitor: Indirect Competitors
+Jenis Produk: Marketplace
+Target Customer: Masyarakat Umum
+Kelebihan: Datanya banyak; Terdapat filter merk, harga, warna, kondisi, dan lokasi penjual
+Kekurangan: Informasi penjual kadang tidak valid; Aplikasi masih kurang stabil; Resiko permainan harga oleh penjual
+Key Competitive Advantage & Unique Value: Produk yang dibuat menggunakan AI untuk menentukan harga mobil dan mencari mobil dengan kemiripan harga atau komponen lainnya
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sam-marhaendra/AI-based-Car-Recommender-System/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Kompetitor 3
+Nama: Carmudi
+Jenis Kompetitor: Indirect Competitors
+Jenis Produk: Marketplace mobil/motor
+Target Customer: Masyarakat Umum
+Kelebihan: Sudah mempunyai pengguna; Data yang dikumpulkan banyak
+Kekurangan: Informasi penjual kadang tidak valid; Aplikasi masih kurang stabil; Resiko permainan harga oleh penjual 
+Key Competitive Advantage & Unique Value: Produk yang dibuat menggunakan AI untuk menentukan harga mobil dan mencari mobil dengan kemiripan harga atau komponen lainnya
