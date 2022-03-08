@@ -4,6 +4,5 @@ This is a web based application that can give recommendation regarding car price
 Fantastic Four :)) Team <br/>
 Group Leader: SAMATHA MARHAENDRA PUTRA - 19/444071/TK/49267<br/>
 Member 1: <br/>
-Member 2: <br/>
+Member 2: HANING JIHAN PERTIWI - 19/439813/TK/48543<br/>
 Member 3: DASCHA ABHISTA WACHNATA - 19/444044/TK/49240<br/>
-
