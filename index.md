@@ -8,6 +8,8 @@ Member 3: DASCHA ABHISTA WACHNATA - 19/444044/TK/49240<br/>
 <h2>“Project Senior Project TI”</h2><br/>
 Instansi: Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada<br/>
 
+
+
 <h3>Jawaban dari Modul 1</h3>
 <h4>Nama produk: </h4>
 AI-based Car Recommender System<br/>
@@ -50,6 +52,7 @@ Kekurangan: Informasi penjual kadang tidak valid; Aplikasi masih kurang stabil; 
 Key Competitive Advantage & Unique Value: Produk yang dibuat menggunakan AI untuk menentukan harga mobil dan mencari mobil dengan kemiripan harga atau komponen lainnya<br/>
 
 
+
 <h3>Jawaban dari Modul 2<h3>
 <h4>Metode SDLC yang Digunakan:</h4>
 Agile, karena metode ini merupakan metode yang fleksibel dimana pengembangan dilakukan dalam jangka pendek serta metode ini lebih beradaptasi terhadap perubahan dalam bentuk apapun.<br/>
@@ -64,19 +67,19 @@ Pengguna potensial dari produk kami adalah masyarakat umum yang memiliki kepenti
 -Penjual yang ingin mengetahui harga mobil saat ini sebagai referensi harga saat menjual mobil bekas<br/>
 
 <h4>Use Case Diagram</h4>
-<img src="/img/Use_Case.jpg" alt="Use Case Diagram">
+<img src="/AI-based-Car-Recommender-System/img/Use_Case.jpg" alt="Use Case Diagram">
   
 <h4>Functional Requirements</h4>
-<img src="/img/FR.jpg" alt="Functional Requirements">
+<img src="/AI-based-Car-Recommender-System/img/FR.jpg" alt="Functional Requirements">
   
 <h4>Entity Relationship Diagram</h4>
-<img src="/img/ERD.jpg" alt="ERD">
+<img src="/AI-based-Car-Recommender-System/img/ERD.jpg" alt="ERD">
   
 <h4>Low-Fidelity Design</h4>
-<img src="/img/Low_Fi1.jpg" alt="Low Fidelity (1)">
-<img src="/img/Low_Fi2.jpg" alt="Low Fidelity (2)">
-<img src="/img/Low_Fi3.jpg" alt="Low Fidelity (3)">
+<img src="/AI-based-Car-Recommender-System/img/Low_Fi1.jpg" alt="Low Fidelity (1)">
+<img src="/AI-based-Car-Recommender-System/img/Low_Fi2.jpg" alt="Low Fidelity (2)">
+<img src="/AI-based-Car-Recommender-System/img/Low_Fi3.jpg" alt="Low Fidelity (3)">
 
 <h4>Gantt-Chart</h4>
-<img src="/img/GC_1.jpg" alt="Gantt Chart (1)">
-<img src="/img/GC_2.jpg" alt="Gantt Chart (2)">
+<img src="/AI-based-Car-Recommender-System/img/GC_1.jpg" alt="Gantt Chart (1)">
+<img src="/AI-based-Car-Recommender-System/img/GC_2.jpg" alt="Gantt Chart (2)">
