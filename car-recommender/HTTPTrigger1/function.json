@@ -1,0 +1,35 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "name": "inputDocument",
+      "direction": "in",
+      "type": "cosmosDB",
+      "connectionStringSetting": "fantasticfour-cosmosdb_DOCUMENTDB",
+      "databaseName": "fantasticfour",
+      "collectionName": "transactional-data"
+    },
+    {
+      "name": "outputDocument",
+      "direction": "out",
+      "type": "cosmosDB",
+      "connectionStringSetting": "fantasticfour-cosmosdb_DOCUMENTDB",
+      "databaseName": "fantasticfour",
+      "collectionName": "transactional-data"
+    }
+  ]
+}
