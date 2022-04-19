@@ -85,6 +85,6 @@ Pengguna potensial dari produk kami adalah masyarakat umum yang memiliki kepenti
 <img src="/AI-based-Car-Recommender-System/img/GC_2.jpg" alt="Gantt Chart (2)">
 
 <h4>Arsitektur Virtual Network dan Load Balancing</h4>
-<img src="/AI-based-Car-Recommender-System/img/arch design.jpg" alt="Desain Arsitektur">
+<img src="/AI-based-Car-Recommender-System/img/arch design.jpg" alt="Desain Arsitektur"><br/>
 
 Data penjualan mobil disimpan dalam bentuk tabel pada Azure Table Storage, kemudian data tersebut diletakkan pada Virtual Machine yang digunakan untuk men-train model Machine Learning. Machine Learning di-train menggunakan Azure Machine Learning Services. Setelah di-train, model akan diregistrasikan dan di-deploy di Azure Container Instances. Pada Azure Container Instances, didapatkan endpoint dan key yang nantinya akan digunakan pada website yang kami buat. Kemudian, saat client memasukan data untuk diprediksi, function apps akan men-trigger Azure CosmosDB untuk menambahkan data. Data pada Azure CosmosDB digunakan untuk keperluan analitik, misalnya untuk melihat tren pencarian oleh user atau untuk melihat mobil yang paling banyak dicari oleh user. Visualisasi dapat dilakukan menggunakan Power BI atau Tableau.<br/>
