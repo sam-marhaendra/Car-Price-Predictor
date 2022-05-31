@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CarPred | Car Price Predictor</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="../static/img/carpred.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="../static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../static/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="../static/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="../static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="../static/lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="../static/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="../static/css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="body">
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-content">
+      <h2>CarPred: Car Price Predictor</h2>
+      <div>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+		    <a href="#predict" class="btn-projects scrollto">Predict</a>
+      </div>
+    </div>
+    <div id="intro-carousel" class="owl-carousel" >
+      <div class="item" style="background-image: url('../static/img/intro-carousel/mobil1.jpg');"></div>
+      <div class="item" style="background-image: url('../static/img/intro-carousel/mobil2.jpg');"></div>
+      <div class="item" style="background-image: url('../static/img/intro-carousel/mobil3.jpg');"></div>
+      <div class="item" style="background-image: url('../static/img/intro-carousel/FxMIC.png');"></div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 about-img">
+            <img src="../static/img/carpred.png" alt="">
+          </div>
+          <div class="col-lg-6 content">
+            <h2>What is CarPred? <br>And.. what's the importance?</h2><br>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ea eum. Nihil ex alias sint nesciunt ipsam accusantium praesentium, quasi eligendi esse corporis sit, asperiores nisi explicabo exercitationem quas tempora!</h3>
+			      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deserunt velit dignissimos in nisi officiis eligendi omnis dolore, distinctio facere labore saepe sed quia iusto quam? Ex commodi quidem quisquam.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+      Predict Section
+    ============================-->
+    <section id="predict" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Predict Car Price by Its Specifications</h2>
+          <div class="row">
+            <div class="col-lg-12">
+              
+              <form action='/predict' method="post" id="predict">
+                <div class="row" style="padding-top:10px;">
+
+                  <div class="col-md-4">
+                    <div class="wow fadeInRight" style="padding-top:20px" data-wow-delay="0.8s">
+                      <div class="col" style="padding-top:10px;">
+                        <label for="Model">Brand</label>
+                        <select class="selectpicker form-control" id="brand" name="brand" required="1" 
+                        onchange="load_car_models(this.id,'car_models')">
+                          {% for brand in brands %}
+                          <option value="{{ brand }}">{{ brand }}</option>
+                          {% endfor %}
+                        </select>									  
+                      </div> 
+                      <div class="col" style="padding-top:10px;">
+                        <label for="Model">Model</label>
+                        <select class="selectpicker form-control" id="car_models" name="car_models" required="1">
+                        </select>									  
+                      </div> 
+                      <div class="col" style="padding-top:10px;">
+                        <label>Year</label><br>
+                        <select class="selectpicker form-control" id="year" name="year" required="1">
+                            {% for year in years %}
+                            <option value="{{ year }}">{{ year }}</option>
+                            {% endfor %}
+                        </select>								  
+                      </div> 
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="wow fadeInRight" style="padding-top:20px" data-wow-delay="0.8s">
+                      <div class="col" style="padding-top:10px;">
+                        <label>Trasmission</label>
+                        <select class="selectpicker form-control" id="transmission" name="transmission" required="1">
+                          {% for transmission in transmissions %}
+                          <option value="{{ transmission }}">{{ transmission }}</option>
+                          {% endfor %}
+                      </select>									  
+                      </div>
+                      <div class="col" style="padding-top:10px;">
+                        <label>Fuel Type</label>
+                        <select class="selectpicker form-control" id="fuelType" name="fuelType" required="1">
+                          {% for fuelType in fuelTypes %}
+                          <option value="{{ fuelType }}">{{ fuelType }}</option>
+                          {% endfor %}
+                      </select>		
+                      </div>
+                      <div class="col" style="padding-top:10px;">
+                        <label>Mileage</label>
+                        <input type="number" step="1" min="0" max="1000000000" class="form-control" id="mileage" name="mileage" placeholder="Mileage" required="required" />
+                      </div> 
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="wow fadeInRight" style="padding-top:20px" data-wow-delay="0.8s">
+                      <div class="col" style="padding-top:10px;">
+                        <label>Tax</label>
+                        <input type="number" step="0.1" min="0" max="1000000000" class="form-control" id="tax" name="tax" placeholder="Tax" required="required" />
+                      </div> 
+                      <div class="col"  style="padding-top:10px;">
+                        <label>MPG</label>
+                        <input type="number" step="0.1" min="0" max="1000000000" class="form-control" id="mpg" name="mpg" placeholder="MPG" required="required" />
+                      </div> 
+                      <div class="col"  style="padding-top:10px;">
+                        <label>Engine Size</label>
+                        <input type="number" step="0.1" min="0" max="1000000000" class="form-control" id="engineSize" name="engineSize" placeholder="Engine Size" required="required" />
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                  
+                <div style="padding-top:30px; padding-left:15px;">
+                  <button type="submit" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary btn-lg ">Predict</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        <br>
+        <br>
+			   
+          <div id="result">
+            <div class="col-lg-12">
+              <div style="font-size:30px;width=100%;">
+                <p style="font-size:50px"><b>ESTIMATED PRICE:</b> </p>
+                <samp>{{ prediction_text }}</samp>
+              </div>
+            </div>
+          </div>
+        </div>          
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function load_car_models(id_brand, id_car_model)
+    {
+        var brand = document.getElementById(id_brand);
+        var car_model = document.getElementById(id_car_model);
+        console.log(brand.value);
+        car_model.value = "";
+        car_model.innerHTML = "";
+        {% for brand in brands %}
+            if( brand.value == "{{ brand }}")
+            {
+                {% for model in car_models %}
+                    {% if brand in model %}
+                        var newOption = document.createElement("option");
+                        newOption.value = "{{ model }}";
+                        newOption.innerHTML = "{{ model }}";
+                        car_model.options.add(newOption);
+                    {% endif %}
+                {% endfor %}
+            }
+        {% endfor %}
+    }
+  </script>
+
+  <!-- JavaScript Libraries -->
+  <script src="../static/lib/jquery/jquery.min.js"></script>
+  <script src="../static/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../static/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/lib/easing/easing.min.js"></script>
+  <script src="../static/lib/superfish/hoverIntent.js"></script>
+  <script src="../static/lib/superfish/superfish.min.js"></script>
+  <script src="../static/lib/wow/wow.min.js"></script>
+  <script src="../static/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../static/lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="../static/lib/sticky/sticky.js"></script>
+  <script src="../static/contactform/contactform.js"></script>
+  <script src="../static/js/main.js"></script>
+
+</body>
+</html>
