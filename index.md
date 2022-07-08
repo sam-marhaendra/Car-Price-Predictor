@@ -76,7 +76,7 @@ Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universit
   <h5>-Nama</h5> 
   Carmudi<br/>
   <h5>-Jenis Kompetitor</h5> 
-  Indirect Competitors<br/>
+  <i>Indirect Competitors</i><br/>
   <h5>-Jenis Produk</h5> 
   <i>Marketplace</i> mobil/motor<br/>
   <h5>-Target <i>Customer</i></h5> 
