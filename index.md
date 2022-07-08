@@ -1,12 +1,12 @@
 <h1>FANTASTIC FOUR <i>Team</i></h1>
 
-<h4><i>Group Leader</i>:</h4> SAMATHA MARHAENDRA PUTRA - 19/444071/TK/49267
-<h4><i>Member 1</i>:</h4> RIZKY ALIF RAMADHAN - 19/446785/TK/49890
-<h4><i>Member 2</i>:</h4> HANING JIHAN PERTIWI - 19/439813/TK/48543
-<h4><i>Member 3</i>:</h4> DASCHA ABHISTA WACHNATA - 19/444044/TK/49240
+<h4><i>Group Leader</i></h4> SAMATHA MARHAENDRA PUTRA - 19/444071/TK/49267
+<h4><i>Member 1</i></h4> RIZKY ALIF RAMADHAN - 19/446785/TK/49890
+<h4><i>Member 2</i></h4> HANING JIHAN PERTIWI - 19/439813/TK/48543
+<h4><i>Member 3</i></h4> DASCHA ABHISTA WACHNATA - 19/444044/TK/49240
 
 <h1><i>Senior Project TI</i></h1>
-<h4>Instansi: <h4>
+<h4>Instansi<h4>
 Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universitas Gadjah Mada<br/>
 
 <h2>Jawaban dari Modul 1</h2>
@@ -31,7 +31,7 @@ Departemen Teknologi Elektro dan Teknologi Informasi, Fakultas Teknik, Universit
   <h4>Kompetitor 1</h4>
   <h5>-Nama</h5> 
   OLX<br/>
-  <h5>-Jenis Kompetitor:</h5> 
+  <h5>-Jenis Kompetitor</h5> 
   <i>Indirect Competitors</i><br/>
   <h5>-Jenis Produk</h5> 
   <i>Marketplace</i><br/>
@@ -136,9 +136,9 @@ Pengguna potensial dari produk kami adalah masyarakat umum dengan karakteristik 
 <img src="/AI-based-Car-Recommender-System/img/gantt_chart.jpg" alt="Gantt Chart">
 
   <h3>9. 
-    <i>Software Architecture</i>
+    <i>Schema</i>
   </h3>
-<img src="/AI-based-Car-Recommender-System/img/software_architecture.png" alt="Software Architecture"><br/>
+<img src="/AI-based-Car-Recommender-System/img/software_architecture.png" alt="Schema"><br/>
 <p style="justify">
-Data penjualan mobil yang diambil dari platform Kaggle dipakai sebagai data latih pada pelatihan model menggunakan layanan Azure Machine Learning. Setelah dilakukan proses pelatihan model, hasil latih disimpan. Hasil latih tersebut kemudian dipanggil di sisi back-end aplikasi, yang kemudian juga dihubungkan dengan front-end aplikasi. Keduanya kemudian disimpan pada repositori kode GitHub. Tahap <i>deployment</i> dilakukan dengan menggunakan layanan App Services. Setelah proses tersebut selesai dilakukan, didapatkan luaran berupa tautan menuju aplikasi. Tautan tersebut apabila dibuka akan mengarahkan pengguna menuju aplikasi yang dimaksud. 
+Data penjualan mobil yang diambil dari platform Kaggle dipakai sebagai data latih pada pelatihan model menggunakan layanan Azure Machine Learning. Setelah dilakukan proses pelatihan model, hasil latih disimpan. Hasil latih tersebut kemudian dipanggil di sisi <i>back-end</i> aplikasi, yang kemudian juga dihubungkan dengan <i>front-end</i> aplikasi. Keduanya kemudian disimpan pada repositori kode GitHub. Tahap <i>deployment</i> dilakukan dengan menggunakan layanan App Services. Setelah proses tersebut selesai dilakukan, didapatkan luaran berupa tautan menuju aplikasi. Tautan tersebut apabila dibuka akan mengarahkan pengguna menuju aplikasi yang dimaksud. 
   </p>
