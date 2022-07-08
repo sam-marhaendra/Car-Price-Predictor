@@ -128,9 +128,7 @@ Pengguna potensial dari produk kami adalah masyarakat umum dengan karakteristik 
   <h3>7. 
     <i>Low-Fidelity Design</i>
   </h3>
-<img src="/AI-based-Car-Recommender-System/img/Low_Fi1.jpg" alt="Low Fidelity (1)">
-<img src="/AI-based-Car-Recommender-System/img/Low_Fi2.jpg" alt="Low Fidelity (2)">
-<img src="/AI-based-Car-Recommender-System/img/Low_Fi3.jpg" alt="Low Fidelity (3)">
+<img src="/AI-based-Car-Recommender-System/img/lo-fi_design.png" alt="Low-Fidelity Design">
 
   <h3>8. 
     <i>Gantt-Chart</i>
@@ -140,7 +138,7 @@ Pengguna potensial dari produk kami adalah masyarakat umum dengan karakteristik 
   <h3>9. 
     <i>Software Architecture</i>
   </h3>
-<img src="/AI-based-Car-Recommender-System/img/software_architecture.jpg" alt="Software Architecture"><br/>
+<img src="/AI-based-Car-Recommender-System/img/software_architecture.png" alt="Software Architecture"><br/>
 <p style="justify">
-Data penjualan mobil yang diambil dari Kaggle dipakai sebagai data latih pada pelatihan model menggunakan layanan Azure Machine Learning. Setelah dilakukan proses pelatihan model, hasil latih disimpan. Hasil latih tersebut kemudian dipanggil di sisi back-end aplikasi, yang kemudian juga dihubungkan dengan front-end aplikasi. Keduanya kemudian disimpan pada repositori kode GitHub. Tahap <i>deployment</i> dilakukan dengan menggunakan layanan App Services. Setelah proses tersebut selesai dilakukan, didapatkan luaran berupa tautan menuju aplikasi. Tautan tersebut apabila dibuka akan mengarahkan pengguna menuju aplikasi yang dimaksud. 
+Data penjualan mobil yang diambil dari platform Kaggle dipakai sebagai data latih pada pelatihan model menggunakan layanan Azure Machine Learning. Setelah dilakukan proses pelatihan model, hasil latih disimpan. Hasil latih tersebut kemudian dipanggil di sisi back-end aplikasi, yang kemudian juga dihubungkan dengan front-end aplikasi. Keduanya kemudian disimpan pada repositori kode GitHub. Tahap <i>deployment</i> dilakukan dengan menggunakan layanan App Services. Setelah proses tersebut selesai dilakukan, didapatkan luaran berupa tautan menuju aplikasi. Tautan tersebut apabila dibuka akan mengarahkan pengguna menuju aplikasi yang dimaksud. 
   </p>
