@@ -128,12 +128,12 @@ Pengguna potensial dari produk kami adalah masyarakat umum dengan karakteristik 
   <h3>7. 
     <i>Low-Fidelity Design</i>
   </h3>
-<img src="/AI-based-Car-Recommender-System/img/hi-fi_design.png" alt="High-Fidelity Design">
+<img src="/AI-based-Car-Recommender-System/img/lo-fi_design.png" alt="High-Fidelity Design">
   
   <h3>8.
     <i>High-Fidelity Design</i>
   </h3>
-<img src="/AI-based-Car-Recommender-System/img/lo-fi_design.png" alt="Low-Fidelity Design">
+<img src="/AI-based-Car-Recommender-System/img/hi-fi_design.png" alt="Low-Fidelity Design">
 
   <h3>9. 
     <i>Gantt-Chart</i>
