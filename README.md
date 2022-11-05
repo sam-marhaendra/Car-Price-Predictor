@@ -1,4 +1,4 @@
-# AI-based-Car-Recommender-System
+# Car Price Predictor
 This is a web-based application that can give a recommendation about estimated car price by inferencing its specifications.<br/>
 
 FANTASTIC FOUR <i>Team</i><br/>
